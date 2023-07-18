@@ -1,0 +1,77 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  padding-left: 5%;
+}
+
+body {
+  background-color: #fdfdf8;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lucida Handwriting', cursive;
+  text-shadow: 5px 0 #7C9D96;
+  font-size: 8rem;
+  color: #E9B384;
+}
+
+p {
+  font-size: 2rem;
+  color: #E9B384;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #E9B384;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.input-container {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.input-container label {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.input-container input[type="text"] {
+  padding: 10px;
+  font-size: 1.5rem;
+  border: 2px solid #E9B384;
+  border-radius: 5px;
+  width: 250px;
+  margin-bottom: 15px;
+  font-family: 'Indie Flower', cursive;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  background-color: #E9B384;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Indie Flower', cursive;
+}
+
+.input-container button:hover {
+  background-color: #D49A5D;
+}
